@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>University Website</title>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="/eduford/index.html">Home</a></li>
+                    <li><a href="/eduford/about.html">About</a></li>
+                    <li><a href="/eduford/course.html">Course</a></li>
+                    <li><a href="/eduford/blog.html">Blogs</a></li>
+                    <li><a href="/eduford/course.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online Programs For 2021</h1>
+    </section>
+
+    <!-- Blog page content -->
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/certificate.jpg" alt="">
+                <h2>Our Certificate & Online Programs For 2021</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit fuga eligendi expedita, sapiente eos
+                    voluptate voluptas asperiores reprehenderit ipsum id sequi molestias suscipit explicabo saepe quae
+                    impedit officia rerum, error debitis est facere eum. Nostrum perferendis mollitia consequuntur animi
+                    voluptatum!
+                </p>
+                <br>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci provident repellat a consequuntur sit beatae optio numquam est exercitationem doloribus officia soluta eius corrupti commodi doloremque quas molestias temporibus, aliquid nobis minus unde perspiciatis aut veritatis dolores. Sapiente, aut tempora. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam rerum ex voluptatum quod consequuntur fugit?
+                </p>
+                <br>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde similique rem iusto laudantium, accusantium laboriosam officia eum laborum repellendus recusandae aliquam quibusdam quia atque! A iure similique sint fuga dicta aliquam sapiente nesciunt exercitationem, atque esse id quasi excepturi, saepe ex sequi, distinctio eos? Obcaecati debitis in inventore minus sed. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa vero quia dolor atque beatae in.
+                </p>
+                <br>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, eaque consectetur harum, iusto cupiditate nostrum ut nihil hic quis commodi minus corporis dolore voluptate corrupti impedit eius est doloribus alias? Perferendis, accusamus quasi magnam at corrupti tempora minus quidem totam tenetur ad ducimus dolores debitis ea nam? Hic cumque cupiditate voluptatibus itaque voluptas! Nisi labore possimus voluptatum quasi, temporibus eligendi, eveniet nihil quidem quis est velit quam expedita autem laboriosam.
+                </p>
+                <br>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam illum illo eos eius, ratione nisi nemo distinctio omnis dolorem amet repudiandae, fuga, vero perspiciatis aut labore! Est minus dolor quos totam, iusto deserunt sint fugiat eaque! Eveniet debitis culpa accusantium iure totam architecto officiis recusandae excepturi iste maiores deserunt esse tempore officia voluptatem ut alias dicta harum, odit pariatur et non beatae. Eaque necessitatibus ab veritatis, perspiciatis dignissimos, assumenda obcaecati, libero sapiente vitae amet doloremque reprehenderit quisquam? Et, minima eum?
+                </p>
+
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form action="" class="comment-form">
+                        <input type="text" name="" placeholder="Enter Name">
+                        <input type="email" name="" placeholder="Enter Email">
+                        <textarea name=""  rows="5" placeholder="Your comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+                </div>
+
+            </div>
+            <div class="blog-right">
+                <h3>
+                    Post Categories
+                </h3>
+                <div>
+                    <span>
+                        Business Analytics
+                    </span>
+                    <span>26</span>
+                </div>
+                <div>
+                    <span>
+                        Machin Learning
+                    </span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>
+                        Data Science
+                    </span>
+                    <span>30</span>
+                </div>
+                <div>
+                    <span>
+                        Journalism
+                    </span>
+                    <span>54</span>
+                </div>
+                <div>
+                    <span>
+                        Commerce
+                    </span>
+                    <span>36</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit Qui molestias aperiam earum, a, incidunt
+            expedita unde eligendi.<br> quia laudantium ut fugiat recusandae tenetur vel amet.
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Ayush Jha</p>
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+
+</html>
